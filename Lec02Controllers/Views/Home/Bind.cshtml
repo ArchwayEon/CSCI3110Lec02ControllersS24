@@ -1,0 +1,10 @@
+﻿
+@{
+    string? name = (String?)ViewData["name"] ?? "No name";
+    ViewData["Title"] = "Bind";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>name = @name</p>
+

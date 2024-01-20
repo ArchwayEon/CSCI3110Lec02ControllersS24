@@ -1,0 +1,16 @@
+﻿
+@{
+    string? id = (String?)ViewData["id"];
+    ViewData["Title"] = "Parameter";
+}
+
+<h1>Parameter Demo</h1>
+@if(id != null)
+{
+    <p>The parameter is @id</p>
+}
+else
+{
+    <p>No parameter!</p>
+}
+

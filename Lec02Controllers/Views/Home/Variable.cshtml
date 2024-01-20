@@ -1,0 +1,11 @@
+﻿
+@{
+    var result = (String?)ViewData["result"] ?? "No result";
+    var itemStr = (String?)ViewData["itemStr"] ?? "No item string";
+    ViewData["Title"] = "Variable";
+}
+
+<h1>@ViewData["Title"] Number of Segments</h1>
+<p>result = @result</p>
+<p>itemStr = @itemStr</p>
+

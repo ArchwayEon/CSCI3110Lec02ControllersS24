@@ -1,0 +1,12 @@
+﻿
+@{
+    string? code = (String?)ViewData["code"]??"No code";
+    string? idNumber = (String?)ViewData["idNumber"]??"No id";
+    ViewData["Title"] = "Four Segments";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>Code = @code Id Number = @idNumber</p>
+
+

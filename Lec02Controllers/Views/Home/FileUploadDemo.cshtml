@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewData["Title"] = "File Upload Demo";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form asp-action="DoUpload" enctype="multipart/form-data">
+    <label for="files">Choose the file to upload</label>
+    <input id="files" name="files" type="file"/>
+    <input type="submit" value="Upload"/>
+</form>
